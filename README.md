@@ -6,13 +6,13 @@ These programs  check for new releases of certain webcomics using webscraping. I
 The program is implemented in python, and seperately in bash(as a exercise to gain familiarity with bash). The main difference between the two is that the python implementation is written so that it can be easily modified to check for additional comics
 
 ## Requirements
-+Both implementations use sxiv to display the image but that can be easily changes in the source code
-+the Python impoementation requires
-..+Python3
-..+requests 
-..+shutil 
-..+BeautifulSoup 
-..+subprocess
+* Both implementations use sxiv to display the image but that can be easily changes in the source code
+* The Python impoementation requires
+    * Python3
+    * requests 
+    * shutil 
+    * BeautifulSoup 
+    * subprocess
 
 
 ## Setup
