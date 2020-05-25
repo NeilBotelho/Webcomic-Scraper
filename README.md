@@ -1,6 +1,6 @@
-#Webcomics Scraper
+# Webcomics Scraper
 ## Purpose
-These programs  check for new releases of certain webcomics using webscraping
+These programs  check for new releases of certain webcomics using webscraping. I wanted a program that would display the latest xkcd comic every time i woke my computer from sleep. I achieved it by triggering this program when the acpi lid close event occurs. 
 
 ## The Implementations
 The program is implemented in python, and seperately in bash(as a exercise to gain familiarity with bash). The main difference between the two is that the python implementation is written so that it can be easily modified to check for additional comics
